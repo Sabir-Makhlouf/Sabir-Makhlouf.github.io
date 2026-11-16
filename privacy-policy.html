@@ -3,156 +3,191 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Tech Science Lab Apps &amp; Games</title>
+  <title>Privacy Policy — Tech Science Lab</title>
   <style>
     :root {
-      color-scheme: light dark;
       --bg: #f8fafc;
       --card: #ffffff;
-      --text: #0f172a;
+      --text: #1e293b;
       --muted: #475569;
+      --primary: #0f172a;
+      --accent: #2563eb;
       --border: #e2e8f0;
-      --accent: #1d4ed8;
     }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0b1120;
-        --card: #111827;
-        --text: #f1f5f9;
-        --muted: #94a3b8;
-        --border: #1e293b;
-        --accent: #60a5fa;
-      }
-    }
-    * { box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: var(--bg);
       color: var(--text);
       line-height: 1.7;
+      margin: 0;
       padding: 24px 16px;
     }
-    main {
+    .container {
       max-width: 820px;
       margin: 0 auto;
       background: var(--card);
+      padding: 36px 32px;
+      border-radius: 12px;
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 32px 28px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
     }
     h1 {
-      margin-top: 0;
+      color: var(--primary);
       font-size: 1.85rem;
-      line-height: 1.25;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
     }
     h2 {
-      margin-top: 1.8rem;
-      margin-bottom: 0.5rem;
-      font-size: 1.2rem;
+      color: var(--primary);
+      font-size: 1.25rem;
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      color: var(--text);
+      font-size: 1rem;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .app-box {
+      background: #eff6ff;
+      border-left: 4px solid var(--accent);
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+    }
+    .app-box strong {
+      color: var(--primary);
+    }
+    a {
       color: var(--accent);
+      text-decoration: none;
     }
-    .meta {
-      background: color-mix(in srgb, var(--accent) 8%, transparent);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 14px 16px;
-      margin-bottom: 24px;
-      font-size: 0.95rem;
+    a:hover {
+      text-decoration: underline;
     }
-    .meta p { margin: 4px 0; }
-    ul { padding-left: 20px; }
-    li { margin-bottom: 6px; }
-    a { color: var(--accent); word-break: break-word; }
     footer {
-      margin-top: 32px;
+      margin-top: 36px;
       padding-top: 16px;
       border-top: 1px solid var(--border);
-      color: var(--muted);
       font-size: 0.9rem;
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Privacy Policy — Tech Science Lab Apps &amp; Games</h1>
-    <div class="meta">
-      <p><strong>Effective Date:</strong> November 15, 2026</p>
-      <p><strong>Developer / Publisher:</strong> Tech Science Lab </p>
-      <p><strong>Contact Email:</strong> <a href="mailto:sabirmakhloufcollab@gmail.com">sabirmakhloufcollab@gmail.com</a></p>
-      <p><strong>Scope:</strong> Applies to all mobile apps, games, and software published by Tech Science Lab (including <em>Minutes Mental Math</em>) unless another policy is explicitly provided.</p>
+  <div class="container">
+    <h1>Privacy Policy for <span class="app-name">PayoffPath</span></h1>
+    <div class="subtitle">
+      <strong>Developer:</strong> Tech Science Lab (Dr. Sabir Makhlouf)<br />
+      <strong>Effective Date:</strong> November 16, 2026
     </div>
 
-    <h2>1. Overview</h2>
     <p>
-      This Privacy Policy describes how <strong>Tech Science Lab</strong> ("we", "our", or "us") collects, uses, and protects information when you use our mobile applications, games, and software ("Apps"). We build privacy-focused, offline-capable apps and do not require registration or personal information such as your name, home address, or phone number for core functionality.
+      <strong>Tech Science Lab</strong> ("we," "our," or "us") built the <strong class="app-name">PayoffPath</strong> mobile application as a commercial, ad-supported utility application. This Privacy Policy explains how information is collected, used, disclosed, and safeguarded when you use our application.
     </p>
 
-    <h2>2. Local Offline Storage</h2>
-    <p>
-      Core progress, scores, streaks, statistics, settings (such as language, theme, or audio/haptics), and game saves are stored strictly locally on your device. This data is not uploaded to developer-owned servers. Uninstalling the App or clearing App storage from your device settings deletes all locally stored data.
-    </p>
+    <div class="app-box">
+      <strong>Covered Applications:</strong> This policy applies specifically to the following official applications published by <strong>Tech Science Lab</strong> on Google Play:
+      <ul>
+        <!-- أضف اسم أي تطبيق جديد كسطر هنا فقط -->
+        <li><strong>Minutes 2 - Mental Math</strong></li>
+        <li><strong>PayoffPath</strong></li>
+        <li><strong>ScholarLens AI</strong></li>
+        <li><strong>All-Format Video Converter</strong></li>
+      </ul>
+    </div>
 
-    <h2>3. Voluntary Contact Information</h2>
+    <h2>1. Information Collection and Use</h2>
     <p>
-      If you contact us by email for support, feedback, or privacy inquiries, we receive your email address and message content only for the purpose of responding to and resolving your request.
+      We do not require you to create an account, and we do not directly collect or store personally identifiable information (such as your name, physical address, or phone number) on our own servers. All core application data, user calculations, preferences, and local files remain stored locally on your device.
     </p>
-
-    <h2>4. Advertising, Analytics &amp; Third-Party Services</h2>
     <p>
-      When your device has an active internet connection, our Apps and Games may use trusted third-party SDKs such as <strong>Google AdMob</strong>, the <strong>Google User Messaging Platform (UMP) Consent SDK</strong>, and <strong>Google Play Services / Google Play Billing</strong>. These providers may automatically collect and process limited data including:
+      However, the application uses third-party services that may collect information used to identify your device for advertising, analytics, and crash diagnostics:
     </p>
     <ul>
-      <li>Device advertising identifiers (such as Android Advertising ID / AAID)</li>
-      <li>IP address and approximate (coarse) location inferred from IP</li>
-      <li>Device model, OS version, app version, and language settings</li>
-      <li>App interactions, ad impressions/clicks, and diagnostic/crash logs</li>
-      <li>Purchase verification data when making an optional in-app purchase via Google Play</li>
+      <li><strong>Advertising Identifier (Google Advertising ID):</strong> Used to serve relevant advertisements and measure ad performance.</li>
+      <li><strong>Device & Technical Data:</strong> Device model, operating system version, IP address (for approximate region/consent compliance), language settings, and crash logs.</li>
+      <li><strong>App Interactions:</strong> Anonymous interaction events (such as ad impressions, clicks, and app launch diagnostics) used to maintain stability and prevent fraud.</li>
     </ul>
+
+    <h2>2. Third-Party Service Providers & Data Sharing</h2>
     <p>
-      Review Google's privacy documentation for further details:
+      We share necessary technical identifiers solely with trusted third-party SDK providers integrated into <strong class="app-name">PayoffPath</strong> to operate the app and display ads:
     </p>
     <ul>
-      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
-      <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google Uses Information from Partner Apps</a></li>
-      <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">Google AdMob Privacy &amp; Compliance</a></li>
+      <li>
+        <strong>Google Play Services:</strong> Provides core Android runtime and security functionality.
+        (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>)
+      </li>
+      <li>
+        <strong>Google AdMob:</strong> Used to display banner, interstitial, rewarded, and app-open advertisements. AdMob may collect and process your Advertising ID, IP address, and usage data.
+        (<a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps</a>)
+      </li>
+      <li>
+        <strong>Google User Messaging Platform (UMP):</strong> Used to request and manage user privacy consent choices in compliance with GDPR and CCPA regulations.
+      </li>
     </ul>
 
-    <h2>5. GDPR, UK &amp; U.S. State Privacy Consent Rights</h2>
+    <h2>3. User Rights, Consent & Opt-Out Choices</h2>
     <p>
-      In regions covered by privacy regulations (including the EU/UK GDPR and applicable U.S. state laws such as CCPA/CPRA), our Apps present a consent prompt powered by Google UMP before serving personalized ads. You may review or update your consent preferences inside the App's <strong>Settings &rarr; Manage Ad Privacy Choices</strong> (where available) or adjust/reset your Android Advertising ID at any time via <strong>Android Settings &rarr; Google &rarr; Ads</strong>.
+      You have full control over your privacy and advertising preferences:
+    </p>
+    <ul>
+      <li><strong>Consent Management:</strong> Users in the European Economic Area (EEA), UK, and applicable regions can review or withdraw their ad personalization consent at any time via the in-app privacy settings or consent dialog.</li>
+      <li><strong>Reset or Delete Advertising ID:</strong> You can opt out of personalized advertising or reset/delete your Advertising ID anytime through your Android device settings: <em>Settings &gt; Google &gt; Ads &gt; Reset advertising ID / Delete advertising ID</em>.</li>
+      <li><strong>Local Data Deletion:</strong> Since your app data is stored locally on your device, clearing the app's storage or uninstalling <strong class="app-name">PayoffPath</strong> permanently deletes all local app data.</li>
+    </ul>
+
+    <h2>4. Data Security</h2>
+    <p>
+      All network communications with third-party advertising services are encrypted in transit using industry-standard HTTPS/TLS protocols. We do not sell your personal data to third parties.
     </p>
 
-    <h2>6. Permissions</h2>
+    <h2>5. Children's Privacy</h2>
     <p>
-      Our Apps request only permissions essential for their declared functionality (such as network access and advertising ID compliance). We do not access sensitive hardware or personal files unless explicitly disclosed and granted by you inside an App feature.
+      <strong class="app-name">PayoffPath</strong> is intended for a general audience and is not directed toward children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal data through third-party services, please contact us immediately so we can take appropriate action.
     </p>
 
-    <h2>7. Data Security &amp; Retention</h2>
+    <h2>6. Changes to This Privacy Policy</h2>
     <p>
-      Network requests made by integrated third-party SDKs use HTTPS/TLS encryption in transit. Local app and game data remains on your device only until cleared or uninstalled.
+      We may update this Privacy Policy from time to time. Any updates will be posted on this page with an updated effective date. Continued use of the application after changes constitutes acceptance of the revised policy.
     </p>
 
-    <h2>8. Children's Privacy</h2>
+    <h2>7. Contact Us</h2>
     <p>
-      Unless explicitly designated for children on its store page, our Apps and Games are designed for general audiences and are not directed at children under 13 (or the applicable age in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has submitted personal data, please email us so we can ensure prompt removal.
-    </p>
-
-    <h2>9. Changes to This Policy</h2>
-    <p>
-      We may revise this Privacy Policy occasionally as our Apps or legal requirements evolve. Updates take effect when published on this page with a revised Effective Date.
-    </p>
-
-    <h2>10. Contact Us</h2>
-    <p>
-      If you have questions or requests regarding this Privacy Policy or any App/Game published by Tech Science Lab, contact us at:
-      <br />
-      <strong>Email:</strong> <a href="mailto:sabirmakhloufcollab@gmail.com">sabirmakhloufcollab@gmail.com</a>
+      If you have any questions, privacy requests, or inquiries regarding <strong class="app-name">PayoffPath</strong> or this Privacy Policy, please contact us at:<br />
+      <strong>Developer:</strong> Tech Science Lab (Dr. Sabir Makhlouf)<br />
+      <strong>Email:</strong> <a href="mailto:sabirmakhlouf.collab@gmail.com">sabirmakhlouf.collab@gmail.com</a>
     </p>
 
     <footer>
-      &copy; 2026 Tech Science Lab All rights reserved.
+      &copy; 2026 Tech Science Lab. All rights reserved.
     </footer>
-  </main>
+  </div>
+
+  <script>
+    // يقرأ اسم التطبيق من الرابط تلقائياً إذا أضفت ?app=AppName
+    const params = new URLSearchParams(window.location.search);
+    const appName = params.get("app");
+    if (appName && appName.trim() !== "") {
+      const cleanName = appName.trim();
+      document.title = `Privacy Policy — ${cleanName} | Tech Science Lab`;
+      document.querySelectorAll(".app-name").forEach(el => {
+        el.textContent = cleanName;
+      });
+    }
+  </script>
 </body>
 </html>
