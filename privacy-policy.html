@@ -67,9 +67,6 @@
       border-radius: 6px;
       margin: 18px 0;
     }
-    .app-box strong {
-      color: var(--primary);
-    }
     a {
       color: var(--accent);
       text-decoration: none;
@@ -88,43 +85,43 @@
 </head>
 <body>
   <div class="container">
-    <h1>Privacy Policy for <span class="app-name">PayoffPath</span></h1>
+    <h1>Privacy Policy — Tech Science Lab</h1>
     <div class="subtitle">
       <strong>Developer:</strong> Tech Science Lab (Dr. Sabir Makhlouf)<br />
       <strong>Effective Date:</strong> November 16, 2026
     </div>
 
     <p>
-      <strong>Tech Science Lab</strong> ("we," "our," or "us") built the <strong class="app-name">PayoffPath</strong> mobile application as a commercial, ad-supported utility application. This Privacy Policy explains how information is collected, used, disclosed, and safeguarded when you use our application.
+      <strong>Tech Science Lab</strong> ("we," "our," or "us") develops and publishes commercial, ad-supported mobile applications. This Privacy Policy explains how information is collected, used, disclosed, and safeguarded when you use any of our covered applications listed below.
     </p>
 
     <div class="app-box">
-      <strong>Covered Applications:</strong> This policy applies specifically to the following official applications published by <strong>Tech Science Lab</strong> on Google Play:
+      <strong>Covered Applications:</strong> This Privacy Policy applies specifically to the following official applications published by <strong>Tech Science Lab</strong> on Google Play:
       <ul>
-        <!-- أضف اسم أي تطبيق جديد كسطر هنا فقط -->
-        <li><strong>Minutes 2 - Mental Math</strong></li>
+        <!-- أضف اسم أي تطبيق جديد هنا مرة واحدة فقط -->
         <li><strong>PayoffPath</strong></li>
         <li><strong>ScholarLens AI</strong></li>
         <li><strong>All-Format Video Converter</strong></li>
+        <li><strong>Minutes 2 - Mental Math</strong></li>
       </ul>
     </div>
 
     <h2>1. Information Collection and Use</h2>
     <p>
-      We do not require you to create an account, and we do not directly collect or store personally identifiable information (such as your name, physical address, or phone number) on our own servers. All core application data, user calculations, preferences, and local files remain stored locally on your device.
+      Our applications do not require account registration, and we do not directly collect or store personally identifiable information (such as your name, physical address, or phone number) on our own servers. All core application data, user calculations, preferences, and local files remain stored locally on your device.
     </p>
     <p>
-      However, the application uses third-party services that may collect information used to identify your device for advertising, analytics, and crash diagnostics:
+      However, our applications integrate trusted third-party services that may collect technical identifiers used to identify your device for advertising, analytics, and crash diagnostics:
     </p>
     <ul>
       <li><strong>Advertising Identifier (Google Advertising ID):</strong> Used to serve relevant advertisements and measure ad performance.</li>
-      <li><strong>Device & Technical Data:</strong> Device model, operating system version, IP address (for approximate region/consent compliance), language settings, and crash logs.</li>
+      <li><strong>Device & Technical Data:</strong> Device model, operating system version, IP address (for approximate region and privacy consent compliance), language settings, and crash logs.</li>
       <li><strong>App Interactions:</strong> Anonymous interaction events (such as ad impressions, clicks, and app launch diagnostics) used to maintain stability and prevent fraud.</li>
     </ul>
 
     <h2>2. Third-Party Service Providers & Data Sharing</h2>
     <p>
-      We share necessary technical identifiers solely with trusted third-party SDK providers integrated into <strong class="app-name">PayoffPath</strong> to operate the app and display ads:
+      We share necessary technical identifiers solely with trusted third-party SDK providers integrated into our covered applications to operate core features and display advertisements:
     </p>
     <ul>
       <li>
@@ -147,7 +144,7 @@
     <ul>
       <li><strong>Consent Management:</strong> Users in the European Economic Area (EEA), UK, and applicable regions can review or withdraw their ad personalization consent at any time via the in-app privacy settings or consent dialog.</li>
       <li><strong>Reset or Delete Advertising ID:</strong> You can opt out of personalized advertising or reset/delete your Advertising ID anytime through your Android device settings: <em>Settings &gt; Google &gt; Ads &gt; Reset advertising ID / Delete advertising ID</em>.</li>
-      <li><strong>Local Data Deletion:</strong> Since your app data is stored locally on your device, clearing the app's storage or uninstalling <strong class="app-name">PayoffPath</strong> permanently deletes all local app data.</li>
+      <li><strong>Local Data Deletion:</strong> Since your app data is stored locally on your device, clearing the app's storage or uninstalling the application permanently deletes all local app data.</li>
     </ul>
 
     <h2>4. Data Security</h2>
@@ -157,37 +154,24 @@
 
     <h2>5. Children's Privacy</h2>
     <p>
-      <strong class="app-name">PayoffPath</strong> is intended for a general audience and is not directed toward children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal data through third-party services, please contact us immediately so we can take appropriate action.
+      Our covered applications are intended for a general audience and are not directed toward children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal data through third-party services, please contact us immediately so we can take appropriate action.
     </p>
 
     <h2>6. Changes to This Privacy Policy</h2>
     <p>
-      We may update this Privacy Policy from time to time. Any updates will be posted on this page with an updated effective date. Continued use of the application after changes constitutes acceptance of the revised policy.
+      We may update this Privacy Policy from time to time. Any updates will be posted on this page with an updated effective date. Continued use of any covered application after changes constitutes acceptance of the revised policy.
     </p>
 
     <h2>7. Contact Us</h2>
     <p>
-      If you have any questions, privacy requests, or inquiries regarding <strong class="app-name">PayoffPath</strong> or this Privacy Policy, please contact us at:<br />
+      If you have any questions, privacy requests, or inquiries regarding any of our covered applications or this Privacy Policy, please contact us at:<br />
       <strong>Developer:</strong> Tech Science Lab (Dr. Sabir Makhlouf)<br />
-      <strong>Email:</strong> <a href="mailto:sabirmakhlouf.collab@gmail.com">sabirmakhlouf.collab@gmail.com</a>
+      <strong>Email:</strong> <a href="mailto:sabir.makhlouf@gmail.com">sabir.makhlouf@gmail.com</a>
     </p>
 
     <footer>
       &copy; 2026 Tech Science Lab. All rights reserved.
     </footer>
   </div>
-
-  <script>
-    // يقرأ اسم التطبيق من الرابط تلقائياً إذا أضفت ?app=AppName
-    const params = new URLSearchParams(window.location.search);
-    const appName = params.get("app");
-    if (appName && appName.trim() !== "") {
-      const cleanName = appName.trim();
-      document.title = `Privacy Policy — ${cleanName} | Tech Science Lab`;
-      document.querySelectorAll(".app-name").forEach(el => {
-        el.textContent = cleanName;
-      });
-    }
-  </script>
 </body>
 </html>
