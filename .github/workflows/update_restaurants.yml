@@ -1,0 +1,33 @@
+name: Weekly Update Algeria Restaurants
+
+on:
+  schedule:
+    # Runs automatically every Sunday at 03:00 UTC
+    - cron: "0 3 * * 0"
+  workflow_dispatch: # Allows manual 1-click run anytime
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch & split 58 wilayas JSON
+        run: python3 scripts/fetch_dz_restaurants.py
+
+      - name: Commit updated JSON files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/wilayas/
+          git diff --staged --quiet || git commit -m "chore: weekly update Algeria restaurants data"
+          git push
