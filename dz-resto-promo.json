@@ -1,0 +1,22 @@
+{
+  "active": false,
+  "badge": {
+    "ar": "مساحة إعلانية",
+    "en": "Ad Space",
+    "fr": "Espace Publicitaire"
+  },
+  "title": {
+    "ar": "أعلن لمطعمك هنا",
+    "en": "Advertise Your Restaurant Here",
+    "fr": "Annoncez votre restaurant ici"
+  },
+  "subtitle": {
+    "ar": "اضغط هنا للتواصل معنا وحجز هذه المساحة",
+    "en": "Tap here to contact us and book this spot",
+    "fr": "Appuyez ici pour nous contacter"
+  },
+  "imageUrl": "",
+  "actionType": "contact",
+  "actionUrl": "",
+  "wilayaCode": "ALL"
+}
