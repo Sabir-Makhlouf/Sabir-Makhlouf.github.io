@@ -1,0 +1,19 @@
+{
+  "active": false,
+  "countryCode": "ALL",
+  "badge": {
+    "en": "Ad Space",
+    "ar": "مساحة إعلانية"
+  },
+  "title": {
+    "en": "Advertise Your Restaurant Here",
+    "ar": "أعلن لمطعمك هنا"
+  },
+  "subtitle": {
+    "en": "Tap to contact us and reach hungry diners worldwide",
+    "ar": "اضغط للتواصل معنا وحجز هذه المساحة الإعلانية"
+  },
+  "imageUrl": "",
+  "actionType": "contact",
+  "actionUrl": ""
+}
